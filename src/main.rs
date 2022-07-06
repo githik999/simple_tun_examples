@@ -1,11 +1,11 @@
 //Linux Only
 
-pub mod how_to_open;
-
 use how_to_open::Device;
+
+pub mod how_to_open;
 
 
 
 fn main() {
-    Device::read_only();
+    Device::libc();
 }
